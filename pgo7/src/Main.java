@@ -19,7 +19,7 @@ public class Main {
         Collections.sort(cars);
 
         for (Car car : cars) {
-            System.out.println(car.year);
+            System.out.println(car.model);
         }
     }
 }
