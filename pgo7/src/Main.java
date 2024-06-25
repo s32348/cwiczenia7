@@ -1,10 +1,9 @@
 import java.util.ArrayList;
 import java.util.Collections;
-
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Car> cars = new ArrayList<Car>();
 
+        ArrayList<Car> cars = new ArrayList<Car>();
         cars.add(new Car("GOLF", 1999));
         cars.add(new Car("ASTRA", 2005));
         cars.add(new Car("CORSA", 2000));
@@ -23,3 +22,5 @@ public class Main {
         }
     }
 }
+
+

@@ -1,9 +1,9 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.ArrayList;
-
 public class Main {
     public static void main(String[] args) {
+
         ArrayList<Item> items = new ArrayList<>();
         items.add(new Item(1, "Myszka"));
         items.add(new Item(2, "Klawiatura"));
@@ -14,13 +14,12 @@ public class Main {
         for (int i = 0; i < items.size(); i++) {
             items.get(i).show();
         }
-        HashMap<Integer, String> itemsMap=new HashMap<>();
-        for(Item item:items){
+        HashMap<Integer, String> itemsMap = new HashMap<>();
+        for (Item item : items) {
             itemsMap.put(item.id, item.name);
         }
         for (Map.Entry<Integer, String> item : itemsMap.entrySet()) {
             System.out.println("ID: " + item.getKey() + ", Name: " + item.getValue());
         }
-
     }
 }

@@ -8,7 +8,6 @@ public class Item {
     }
 
     public void show(){
-
         System.out.println(name);
     }
 }
